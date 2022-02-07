@@ -1,0 +1,12 @@
+{
+    "name": "@app/public",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nuxt"
+    },
+    "dependencies": {
+        "@app/system-design": "^1.0.0"
+    }
+}

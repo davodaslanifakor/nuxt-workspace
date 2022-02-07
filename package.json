@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-multi-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev:public": "yarn workspace @app/public dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.8"
+  }
+}
