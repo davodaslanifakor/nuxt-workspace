@@ -2,7 +2,15 @@
   "name": "nuxt-multi-app",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT",
+  "license": "MIT💗",
+  "description": "nuxt-multi-app in a nuxt project for start your project by spliting your nuxt project into multiple apps",
+  "keywords": [
+    "nuxt.js",
+    "yarn",
+    "yarnworkspace",
+    "nuxt-multi-app",
+    "split-app"
+  ],
   "private": true,
   "scripts": {
     "dev:public": "yarn workspace @app/public dev"
@@ -15,5 +23,11 @@
   },
   "dependencies": {
     "nuxt": "^2.15.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davodaslanifakor/nuxt-workspace"
+  },
+  "homepage": "https://github.com/davodaslanifakor/nuxt-workspace#README",
+  "author": "Davoud Fakour <dafrontdeveloper@gmail.com>"
 }
